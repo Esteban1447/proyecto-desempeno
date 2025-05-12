@@ -15,20 +15,20 @@ const Products = () => {
           <div className="caja-bottom">
             <input
               type="text"
-              placeholder="Producto"
+              placeholder="ID"
               className="input-caja"
             />
           </div>
           <button className="boton-caja" onClick={handleBuscar}>Buscar</button>
           <div className="caja-links">
             <Link to="/" className="link-caja">
-              Buscar Producto
+              Buscar Usuario
             </Link>
           </div>
         </div>
       </section>
       <section className="caja-dos">
-        <h1>Usuario</h1>
+        <h1> Buscar Producto</h1>
       </section>
     </section>
   );

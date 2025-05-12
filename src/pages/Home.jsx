@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </section>
       <section className="caja-dos">
-        <h1>Usuario</h1>
+        <h1>Buscar Usuario</h1>
       </section>
     </section>
   );

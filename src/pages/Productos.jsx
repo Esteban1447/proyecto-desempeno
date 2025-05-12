@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Productos.css";
-import Box from "../components/box";
+import Box from "../components/Box";
 
 const Productos = () => {
   const [productos, setProductos] = useState([]);
