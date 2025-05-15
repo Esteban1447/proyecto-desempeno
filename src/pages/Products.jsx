@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Home.css";
 
 const Products = () => {
-  const navigate = useNavigate(); // Añadido para navegación
+  const navigate = useNavigate(); 
 
   const handleBuscar = () => {
     navigate("/productos");
